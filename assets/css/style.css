@@ -22,10 +22,6 @@ header {
     justify-content: space-between;
 }
 
-header img {
-    height: 100px;
-}
-
 header nav ul li {
     display: inline;
     margin: 30px;
@@ -40,19 +36,34 @@ ul {
     list-style-type: none;
 }
 
-header h1{
+span {
     color:cadetblue;
     text-decoration: none;
     padding: 30px;
+    font-size: 150%;
+    font-style: italic;
+}
+
+h1 {
+    font-size: -webkit-xxx-large;
 }
 
 h2 {
-    font-size: -webkit-xxx-large;
+    color: cadetblue;
+    font-size: 32px;
 }
 
 header nav {
     float:right;
     display: inline;
+}
+
+.hero img {
+    float:left;
+    height: 200px;
+    border-radius: 20%;
+    padding: 20px;
+    border-color: black;
 }
 
 .intro {
@@ -62,4 +73,13 @@ header nav {
 
 #content {
     padding: 30px;
+    background-color: #000;
+    color: #FFFFFF;
+}
+
+.work-img {
+    height: 100px;
+    border-radius: 10%;
+    display: flex;
+    flex-wrap: wrap;
 }
