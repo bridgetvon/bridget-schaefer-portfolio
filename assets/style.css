@@ -1,0 +1,65 @@
+@import url(https://fonts.google.com/specimen/Dosis#standard-styles);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+/*include body styling*/
+body {
+    font-family: Dosis, 'Courier New', Courier, monospace;
+    background-color: #FFFFFF;
+    background-size: cover;
+    margin-top: auto;
+    color: #000;
+}
+
+/*header style*/
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    height: 100px;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 30px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color:#000;
+}
+
+ul {
+    list-style-type: none;
+}
+
+header h1{
+    color:cadetblue;
+    text-decoration: none;
+    padding: 30px;
+}
+
+h2 {
+    font-size: -webkit-xxx-large;
+}
+
+header nav {
+    float:right;
+    display: inline;
+}
+
+.intro {
+    padding: 50px 40px;
+    margin: 30px;
+}
+
+#content {
+    padding: 30px;
+}
