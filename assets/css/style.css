@@ -1,14 +1,12 @@
-@import url(https://fonts.google.com/specimen/Dosis#standard-styles);
+@import url("https://fonts.google.com/specimen/Abel#standard-styles");
 
 * {
-    margin: 0;
     padding: 0;
     box-sizing:border-box;
 }
-
 /*include body styling*/
 body {
-    font-family: Dosis, 'Courier New', Courier, monospace;
+    font-family: "Karla", "Helvetica Neue", Arial, Helvetica, sans-serif;
     background-color: #FFFFFF;
     background-size: cover;
     margin-top: auto;
@@ -53,6 +51,11 @@ h2 {
     font-size: 32px;
 }
 
+h4 {
+    color:#FFFFFF;
+    font-size: small;
+}
+
 header nav {
     float:right;
     display: inline;
@@ -79,7 +82,18 @@ header nav {
 
 .work-img {
     height: 100px;
-    border-radius: 10%;
+    border: #FFFFFF;
+    border-style: solid;
+    border-width: thick;
+}
+
+.portfolio {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.contact ul li {
+    display: inline;
+    margin: 30px;
 }
