@@ -60,6 +60,7 @@ h3 {
     padding: 1%;
     margin: 1%;
 }
+/*style to outline h3 and h4 headers visible on photos*/
 
 .secondary {
     position: absolute;
@@ -79,6 +80,16 @@ h4 {
     margin: 1%;
 }
 
+.row1 {
+    width: 50%;
+    position: relative;
+}
+
+.row2 {
+    width: 50%;
+    position: relative;
+    margin-top: -10%;
+}
 
 .header2 {
     position: absolute;
@@ -93,10 +104,11 @@ header nav {
 
 .hero img {
     float:left;
-    height: 200px;
+    height: 300px;
     border-radius: 20%;
     padding: 20px;
     border-color: black;
+    flex-shrink: inherit;
 }
 
 .intro {
@@ -104,9 +116,13 @@ header nav {
     margin: 30px;
 }
 
+.about-me {
+    margin-bottom: 5%;
+}
+
 #content {
     padding: 30px;
-    background-color: #000;
+    background-color: rgb(0,0,0, .85);
     color: #FFFFFF;
 }
 
@@ -131,18 +147,26 @@ header nav {
     margin: 30px;
 }
 
+.contact{
+    background: #FFFFFF;
+    color: cadetblue;
+    padding-bottom: 5%;
+    margin-left: 20%;
+}
+
+.contact h2 {
+    margin-left: 31%;
+    font-style: italic;
+}
+
+.contact img {
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 .main {
     width: 100%;
     position: relative;
-}
-
-.row1 {
-    width: 50%;
-    position: relative;
-}
-
-.row2 {
-    width: 50%;
-    position: relative;
-    margin-top: -10%;
 }
