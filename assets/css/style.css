@@ -42,6 +42,20 @@ span {
     font-style: italic;
 }
 
+.hero img {
+    float: left;
+    height: 280px;
+    border-radius: 20%;
+    padding: 20px;
+    border-color: black;
+    flex-shrink: inherit;
+}
+ .hero {
+     padding: 2% 10% 10% 10%;
+     display: flex;
+     justify-content: space-between;
+ }
+
 h1 {
     font-size: -webkit-xxx-large;
 }
@@ -62,7 +76,7 @@ h3 {
 }
 /*style to outline h3 and h4 headers visible on photos*/
 
-.secondary {
+.work-type {
     position: absolute;
     top: 40%;
     left: 10%;
@@ -80,18 +94,18 @@ h4 {
     margin: 1%;
 }
 
-.row1 {
+.work-title1 {
     width: 50%;
     position: relative;
 }
 
-.row2 {
+.work-title2 {
     width: 50%;
     position: relative;
     margin-top: -10%;
 }
 
-.header2 {
+.type-subtitle {
     position: absolute;
     top: 50%;
     left: 10%;
@@ -102,14 +116,6 @@ header nav {
     display: inline;
 }
 
-.hero img {
-    float:left;
-    height: 300px;
-    border-radius: 20%;
-    padding: 20px;
-    border-color: black;
-    flex-shrink: inherit;
-}
 
 .intro {
     padding: 50px 40px;
@@ -121,7 +127,7 @@ header nav {
 }
 
 #content {
-    padding: 30px;
+    padding: 10%;
     background-color: rgb(0,0,0, .85);
     color: #FFFFFF;
 }
@@ -133,9 +139,11 @@ header nav {
     width: 100%;
 }
 
+/*work images to display below run-buddy on bottom*/
 .lowerimg{
     height: 75%;
 }
+
 .portfolio {
     display: flex;
     flex-wrap: wrap;
@@ -147,8 +155,7 @@ header nav {
     margin: 30px;
 }
 
-.contact{
-    background: #FFFFFF;
+.contact { 
     color: cadetblue;
     padding-bottom: 5%;
     margin-left: 20%;
@@ -159,14 +166,48 @@ header nav {
     font-style: italic;
 }
 
-.contact img {
-    height: 70px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
+/*display run-buddy as main*/
 .main {
     width: 100%;
     position: relative;
+}
+
+
+/*
+#icons {
+    height: 1px;
+   display: flex;
+   flex-direction: row-reverse;
+   justify-content: space-between;
+   text-decoration: none;
+}
+*/
+
+
+@media screen and (max-width: 980px) {
+    header nav ul li {
+        margin-top: 120%;
+    }
+    .intro img{
+        flex: 0 55%;
+        margin-right: 0;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .hero h1 {
+        width: 100%;
+        text-align: center;
+        font-size: 35px;
+    }
+    .contact h2 {
+        width: 25%;
+        text-align: center;
+        font-size: xx-large;
+    }
+
+    .contact ul li {
+        font-size: smaller;
+        text-align: left;
+        width: 90%;
+    }
 }
