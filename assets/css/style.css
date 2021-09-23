@@ -51,9 +51,39 @@ h2 {
     font-size: 32px;
 }
 
+h3 {
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    background-color: #FFFFFF;
+    color: black;
+    padding: 1%;
+    margin: 1%;
+}
+
+.secondary {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+
 h4 {
     color:#FFFFFF;
     font-size: small;
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    background-color: #FFFFFF;
+    color: black;
+    padding: 1%;
+    margin: 1%;
+}
+
+
+.header2 {
+    position: absolute;
+    top: 50%;
+    left: 10%;
 }
 
 header nav {
@@ -81,12 +111,15 @@ header nav {
 }
 
 .work-img {
-    height: 100px;
     border: #FFFFFF;
     border-style: solid;
     border-width: thick;
+    width: 100%;
 }
 
+.lowerimg{
+    height: 75%;
+}
 .portfolio {
     display: flex;
     flex-wrap: wrap;
@@ -96,4 +129,20 @@ header nav {
 .contact ul li {
     display: inline;
     margin: 30px;
+}
+
+.main {
+    width: 100%;
+    position: relative;
+}
+
+.row1 {
+    width: 50%;
+    position: relative;
+}
+
+.row2 {
+    width: 50%;
+    position: relative;
+    margin-top: -10%;
 }
